@@ -1,0 +1,36 @@
+.logo {
+    height: 50px;
+    width: 250px;
+    /* background-color: powderblue; */
+}
+
+.logo-image {
+    margin-top:1%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: 'blue'
+}
+
+.navbar-link {
+    color: white;
+    font-size: 17px;
+    
+
+}
+
+.navbar-link:hover {
+    color: #4caaf6
+}
+
+.navbar.scrolling-navbar { 
+    background-color: #323845 !important
+}
+
+@media (min-width: 768px){
+    .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    }
+}
